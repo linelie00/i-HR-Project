@@ -9,7 +9,7 @@ app.set('port', process.env.PORT || 8282);
 
 // CORS 설정
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: process.env.CLIENT_URL, // .env 파일에서 가져온 CLIENT_URL 사용
   credentials: true
 }));
 
