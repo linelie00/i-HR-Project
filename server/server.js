@@ -5,7 +5,7 @@ const cors = require('cors');
 dotenv.config(); // .env 파일의 환경 변수 로드
 
 const app = express();
-app.set('port', process.env.PORT || 8282);
+app.set('port', process.env.PORT || 8080);
 
 // CORS 설정
 app.use(cors({
