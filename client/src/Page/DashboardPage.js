@@ -2,7 +2,7 @@ import React from 'react';
 import Bar from '../Components/Bar';
 import Header from '../Components/Header';
 
-function Home() {
+function Dashboard() {
   return (
     <div>
         <Bar />
@@ -11,4 +11,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Dashboard;
