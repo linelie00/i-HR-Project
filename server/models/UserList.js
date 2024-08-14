@@ -64,7 +64,7 @@ const AdminList = sequelize.define('TB_USER_LISTS', {
   },
   pwd_update: {
     type: DataTypes.DATE,
-    allowNull: true,
+    allowNull: false,
   },
 }, {
   timestamps: false, // createdAt, updatedAt 컬럼을 사용하지 않음
